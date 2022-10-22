@@ -7,11 +7,12 @@ import {
   HStack,
   Input,
   Text,
+  Button,
 } from "@chakra-ui/react";
 const Contactus = () => {
   return (
-    <Container>
-      <Text py={8} fontSize={32} textAlign="center" alignItems="center">
+    <Box mx="64px">
+      <Text py={16} fontSize={32} textAlign="center" alignItems="center">
         Contact us
       </Text>
       <Box display="flex" justifyContent="space-around" marginBottom="50px">
@@ -32,6 +33,7 @@ const Contactus = () => {
                 width="700px"
               />
             </Box>
+            <Button px={10} py={6} bg='red.200' color='whiteAlpha.800'>Send Message</Button>
           </FormControl>
         </Box>
 
@@ -43,7 +45,7 @@ const Contactus = () => {
           src="https://www.google.com/maps/embed"
         />
       </Box>
-    </Container>
+    </Box>
   );
 };
 

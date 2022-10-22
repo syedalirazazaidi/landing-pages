@@ -5,6 +5,7 @@ import Hero from "../Components/hero";
 import Blog from "../Components/blog";
 import OurWorks from "../Components/ourWorks";
 import Contactus from "../Components/contactus";
+import Footer from "../Components/footer";
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
       <Blog />
       <OurWorks />
       <Contactus />
+      <Footer />
     </Box>
   );
 };
