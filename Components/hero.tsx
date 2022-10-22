@@ -1,19 +1,8 @@
 import React from "react";
-import {
-  Heading,
-  Box,
-  HStack,
-  VStack,
-  Button,
-  Text,
-  Flex,
-  Image,
-  AspectRatio,
-} from "@chakra-ui/react";
+import { Heading, Box, HStack, Button, Text, Flex } from "@chakra-ui/react";
 const Hero = () => {
   return (
-    <Flex>
-      {/* <HStack w="600px" marginTop="250px" mx="25px"> */}
+    <Flex mx="25px" justifyContent="space-between" alignItems="center">
       <Box w="600px" marginTop="250px" mx="25px">
         <Heading as="h2" size="2xl" fontWeight={500}>
           We make beautiful websites for all people.
@@ -28,16 +17,15 @@ const Hero = () => {
           </Box>
         </HStack>
       </Box>
-      {/* </HStack> */}
-      <HStack w="600px" bg="grey">
-        <AspectRatio maxW="400px" ratio={4 / 3}>
-          <Image
-            src="https://bit.ly/naruto-sage"
-            alt="naruto"
-            objectFit="cover"
-          />
-        </AspectRatio>
-      </HStack>
+      <Box marginTop={60}>
+        <iframe
+          title="naruto"
+          width="480px"
+          height="300px"
+          src="https://www.youtube.com/embed/QhBnZ6NPOY0"
+          allowFullScreen
+        />
+      </Box>
     </Flex>
   );
 };
