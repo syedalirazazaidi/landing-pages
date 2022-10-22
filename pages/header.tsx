@@ -22,6 +22,7 @@ const Header = () => {
       justifyContent="space-around"
       paddingTop="10px"
       fontWeight="500"
+      px="150px"
     >
       <Text>Hydro</Text>
       <Box mx={100} gap="60px" display="flex">

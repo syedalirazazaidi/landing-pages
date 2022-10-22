@@ -2,7 +2,13 @@ import React from "react";
 import { Heading, Box, HStack, Button, Text, Flex } from "@chakra-ui/react";
 const Hero = () => {
   return (
-    <Flex mx="25px" justifyContent="space-between" alignItems="center">
+    <Flex
+      mx="25px"
+      justifyContent="space-between"
+      alignItems="center"
+      px="150px"
+     marginBottom='130px'
+    >
       <Box w="600px" marginTop="250px" mx="25px">
         <Heading as="h2" size="2xl" fontWeight={500}>
           We make beautiful websites for all people.
