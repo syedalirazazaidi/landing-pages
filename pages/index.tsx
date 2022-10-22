@@ -9,13 +9,28 @@ import Footer from "../Components/footer";
 
 const Home: NextPage = () => {
   return (
-    <Box paddingTop="8px" color="black">
+    <Box
+      paddingTop="8px"
+      color="white"
+      bgGradient="linear(to-l, #7928CA, #FF0080)"
+    >
       <Header />
       <Hero />
       <Blog />
       <OurWorks />
       <Contactus />
-      <Footer />
+      <Box
+        w="100%"
+        h="200px"
+        py={16}
+        bgGradient={[
+          "linear(to-tr, teal.300, yellow.400)",
+          "linear(to-t, blue.200, teal.500)",
+          "linear(to-b, orange.100, purple.300)",
+        ]}
+      >
+        <Footer />
+      </Box>
     </Box>
   );
 };

@@ -7,14 +7,14 @@ const Hero = () => {
       justifyContent="space-between"
       alignItems="center"
       px="150px"
-     marginBottom='130px'
+      marginBottom="130px"
     >
       <Box w="600px" marginTop="250px" mx="25px">
         <Heading as="h2" size="2xl" fontWeight={500}>
           We make beautiful websites for all people.
         </Heading>
         <HStack spacing={12} marginRight="20">
-          <Button my={12} colorScheme="blackAlpha">
+          <Button my={12} colorScheme="teal">
             Start a project
           </Button>
           <Box>
