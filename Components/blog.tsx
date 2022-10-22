@@ -11,57 +11,6 @@ import {
   Button,
 } from "@chakra-ui/react";
 const Blog = () => {
-  // return blogData.map((data) => (
-  //   <Box>
-  //     <Heading alignItems="center" textAlign="center">
-  //       Our Blog
-  //     </Heading>
-  //     <Box my="120px" marginLeft="30px">
-  //       <Grid
-  //         my={12}
-  //         templateColumns="repeat(4, 1fr)"
-  //         gap={8}
-  //         h="700px"
-  //         templateRows="repeat(2, 2fr)"
-  //       >
-  //         <GridItem colSpan={2}>
-  //           <Box display="flex">
-  //             <AspectRatio w="370px" h="340px" ratio={5 / 8}>
-  //               <Image src={data.img} alt="naruto" />
-  //             </AspectRatio>
-  //             <VStack align="flex-start" my="70px" px="30px" textAlign="left">
-  //               <Text color="red.600"> {data.datea}</Text>
-  //               <Heading as="h4" size="md" py="10px" fontWeight="300">
-  //                 {data.title}
-  //               </Heading>
-  //               <Text color="gray.400">{data.desc}</Text>
-  //               <Box marginLeft="70px" paddingTop="20px">
-  //                 <Button
-  //                   colorScheme="teal"
-  //                   variant="link"
-  //                   marginLeft="59px"
-  //                   bg="gray.300"
-  //                   color="gray.600"
-  //                   padding="10px"
-  //                   borderRadius="5px"
-  //                 >
-  //                   {data.btn}
-  //                 </Button>
-  //               </Box>
-  //             </VStack>
-  //           </Box>
-  //         </GridItem>
-  //         <GridItem colSpan={2} bg="papayawhip" />
-  //         <GridItem colSpan={2} bg="tomato" />
-  //         <GridItem colSpan={2} bg="tomato" />
-  //       </Grid>
-  //     </Box>
-  //   </Box>
-  //   // <Box bg="red">
-  //   //   <Text>{data.datea}</Text>
-  //   // </Box>
-  // ));
-
   return (
     <Box bg="gray.100" padding="140px">
       <Heading alignItems="center" textAlign="center">

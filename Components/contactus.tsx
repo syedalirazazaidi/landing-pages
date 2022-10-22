@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   FormControl,
   Container,
@@ -8,12 +7,13 @@ import {
   HStack,
   Input,
   Text,
-  AspectRatio,
 } from "@chakra-ui/react";
 const Contactus = () => {
   return (
     <Container>
-      <Text py={8} fontSize={32}  textAlign='center' alignItems='center'>Contact us</Text>
+      <Text py={8} fontSize={32} textAlign="center" alignItems="center">
+        Contact us
+      </Text>
       <Box display="flex" justifyContent="space-around" marginBottom="50px">
         <Box>
           <FormControl marginRight="300px">
@@ -35,9 +35,13 @@ const Contactus = () => {
           </FormControl>
         </Box>
 
-        {/* <AspectRatio ratio={4 / 3}> */}
-        <Box width='480px' marginTop='-10px' h='230px' as="iframe" src="https://www.google.com/maps/embed" />
-        {/* </AspectRatio> */}
+        <Box
+          width="480px"
+          marginTop="-10px"
+          h="230px"
+          as="iframe"
+          src="https://www.google.com/maps/embed"
+        />
       </Box>
     </Container>
   );
