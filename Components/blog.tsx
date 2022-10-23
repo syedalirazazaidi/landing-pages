@@ -9,20 +9,21 @@ import {
   Image,
   Text,
   Button,
+  Center,
 } from "@chakra-ui/react";
 const Blog = () => {
   return (
-    <Box bg="gray.100" padding="140px">
-      <Heading alignItems="center" textAlign="center">
+    <VStack marginLeft={["190px", "65px"]}>
+      <Heading py="10px" marginRight={["-310px", "120px"]} alignItems="center">
         Our Blog
       </Heading>
 
       <Grid
         my={12}
-        templateColumns="repeat(4, 1fr)"
+        templateColumns={["repeat(2, 1fr)", "repeat(4, 1fr)"]}
         h="600px"
-        rowGap={6}
-        columnGap={-4}
+        rowGap="100px"
+        columnGap={-8}
         templateRows="repeat(2, 2fr)"
       >
         {blogData.map((data) => (
@@ -32,7 +33,7 @@ const Blog = () => {
             marginLeft="-126px"
             borderRadius="40%"
           >
-            <Box display="flex" width="570px" height="340px">
+            <Box display="flex" width="510px" height="280px">
               <AspectRatio w="370px" h="340px" ratio={5 / 8}>
                 <Image src="https://bit.ly/naruto-sage" alt="naruto" />
               </AspectRatio>
@@ -71,7 +72,7 @@ const Blog = () => {
           </GridItem>
         ))}
       </Grid>
-    </Box>
+    </VStack>
   );
 };
 

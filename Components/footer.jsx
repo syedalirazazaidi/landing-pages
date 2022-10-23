@@ -2,13 +2,7 @@ import React from "react";
 import { Box, Text, Heading } from "@chakra-ui/react";
 const Footer = () => {
   return (
-    <Box
-     
-      display="flex"
-      mx={12}
-      justifyContent="space-evenly"
-      marginBottom={16}
-    >
+    <Box display="flex" mx={12} justifyContent="space-evenly" marginBottom={16}>
       <Box>
         <Heading fontSize={18}>Hydro Company</Heading>
         <Text w="410px">

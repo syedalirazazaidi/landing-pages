@@ -6,13 +6,16 @@ import img3 from "../images/sp3.jpg";
 import img4 from "../images/sp4.jpg";
 const OurWorks = () => {
   return (
-    <Box my="40px">
+    <Box py={["1400px", "100px", "100px"]}>
       <Text
+        py={["10px"]}
         fontWeight="400"
         fontSize="30px"
         textAlign="center"
         marginTop="90px"
         marginBottom="30px"
+        zIndex={-1}
+        bg="red"
       >
         Our Work
       </Text>
@@ -20,13 +23,30 @@ const OurWorks = () => {
         display="flex"
         gap={16}
         justifyContent="space-around"
-        mx="100"
         h="200px"
+        flexDirection={["column", "row", "row"]}
+        marginLeft={["40px"]}
       >
-        <Image src={img1.src} alt="img1" />
-        <Image src={img2.src} alt="img2" />
-        <Image src={img3.src} alt="img3" />
-        <Image src={img4.src} alt="img4" />
+        <Image
+          boxSize={["400px", "400px", "300px"]}
+          src={img1.src}
+          alt="img1"
+        />
+        <Image
+          boxSize={["400px", "400px", "300px"]}
+          src={img2.src}
+          alt="img2"
+        />
+        <Image
+          boxSize={["400px", "400px", "300px"]}
+          src={img3.src}
+          alt="img3"
+        />
+        <Image
+          boxSize={["400px", "400px", "300px"]}
+          src={img4.src}
+          alt="img4"
+        />
       </Box>
     </Box>
   );
