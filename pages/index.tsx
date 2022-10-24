@@ -10,10 +10,9 @@ import Footer from "../Components/footer";
 const Home: NextPage = () => {
   return (
     <Box
-      paddingBottom="500px"
-      // paddingTop="8px"
-      // color="white"
-      // bgGradient="linear(to-l, #7928CA, #FF0080)"
+    // width="100%"
+    // color="white"
+    // bgGradient="linear(to-l, #7928CA, #FF0080)"
     >
       <Header />
       <Hero />
@@ -24,6 +23,8 @@ const Home: NextPage = () => {
         w={["100%", "100%", "100%"]}
         h="200px"
         py={16}
+        marginLeft={["190px", "0px", "0px"]}
+        marginBottom={["760px", "0px", "0px"]}
 
         // bgGradient={[
         //   "linear(to-tr, teal.300, yellow.400)",
